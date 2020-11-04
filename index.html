@@ -1,79 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf8">
-        <title>Home | UAAG Alliance</title>
-        <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/qXmuXyQ.png"/>
-        <style>
-            body {
-                background-color: white;
-                font: Verdana;
-                text-align: center;
-            }
-            p {
-                font-family: "Futura";
-            }
-            #tit {
-                font-family: "Copperplate";
-            }
-            
-            #top {
-            	font-family:"Copperplate";
-            }
-           
-            #images1 {
-                height:1000px;
-            }ctualNotes {
-                height:1000px;
-            }
-            #fccalculator2 {
-                height:1000px;
-            }
-            #top {
-                text-align: center;
-            }
-            #about {
-                height: 1000px;
-            }
-            #ta1 {
-            	border-radius: 8px;
-            }
-            #calcsec2 {
-            	border-radius: 8px;
-            }
-            #txt1 {
-              font-size:100px;
-            }
-            #info {
-              font-family: Arial, Helvetica, sans-serif;
-              font-size:24px;
-            }
-            #weeklynews {
-              font-family: Arial, Helvetica, sans-serif;
-              font-size:18px;
-            }
-            .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-            ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: black;
-  text-decoration-color: white;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  left:0;
-  }
- 
-li {
-  float: left;
-}
-/**#showrvalue {
+
+<head>
+    <meta charset="utf8">
+    <title>Home | UAAG Alliance</title>
+    <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/qXmuXyQ.png" />
+    <style>
+        body {
+            background-color: white;
+            font: Verdana;
+            text-align: center;
+        }
+        
+        p {
+            font-family: "Futura";
+        }
+        
+        #tit {
+            font-family: "Copperplate";
+        }
+        
+        #top {
+            font-family: "Copperplate";
+        }
+        
+        #images1 {
+            height: 1000px;
+        }
+        
+        ctualNotes {
+            height: 1000px;
+        }
+        
+        #fccalculator2 {
+            height: 1000px;
+        }
+        
+        #top {
+            text-align: center;
+        }
+        
+        #about {
+            height: 1000px;
+        }
+        
+        #ta1 {
+            border-radius: 8px;
+        }
+        
+        #calcsec2 {
+            border-radius: 8px;
+        }
+        
+        #txt1 {
+            font-size: 100px;
+        }
+        
+        #info {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+        }
+        
+        #weeklynews {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+        
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            text-decoration-color: white;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            left: 0;
+        }
+        
+        li {
+            float: left;
+        }
+        /**#showrvalue {
   position: fixed;
   background-color:black;
   display:block;
@@ -83,146 +98,156 @@ li {
   bottom:-2.5%;
   border-top-right-radius: 5%;
 }**/
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
- 
-li a:hover:not(.active) {
-  background-color: rgb(122, 122, 122);
-}
- 
-.active {
-  background-color: #4CAF50;
-}
-#navbar{
-width:14.3%
-}
-#img1 {
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: rgb(122, 122, 122);
+        }
+        
+        .active {
+            background-color: #4CAF50;
+        }
+        
+        #navbar {
+            width: 14.3%
+        }
+        
+        #img1 {
+            border-radius: 12px;
+            height: 1000px;
+            /*width:100%;*/
+            /*background-size: cover;*/
+            background-repeat: no-repeat;
+        }
+        
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+        
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .bg {
+            /* The image used */
+            background-image: url("https://media-s3-us-east-1.ceros.com/united/images/2019/04/24/ba9ea63e3acff1d60a8e0a04e903c988/brand-story-ourlivery.jpg?imageOpt=1&fit=bounds&width=1113&crop=1648,1200,x1138,y0");
+            /* Full height */
+            height: 50%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        #img1n {
+            background-image: url("https://media-s3-us-east-1.ceros.com/united/images/2019/04/24/ba9ea63e3acff1d60a8e0a04e903c988/brand-story-ourlivery.jpg?imageOpt=1&fit=bounds&width=1113&crop=1648,1200,x1138,y0");
+            /* Full height */
+            height: 100%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .container img {
+            width: 100%;
+        }
+        
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            text-decoration-color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: rgb(122, 122, 122);
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: black;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            float: none;
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: rgb(0, 49, 60);
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .ghighlight {
+            background-color: #E8E8E8;
+        }
+    </style>
+</head>
 
-    border-radius: 12px;
-    height: 1000px;
-    
-    /*width:100%;*/
-    /*background-size: cover;*/
-    background-repeat: no-repeat;
-}
-body, html {
-  height: 100%;
-  margin: 0;
-}
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.bg {
-  /* The image used */
-  background-image: url("https://media-s3-us-east-1.ceros.com/united/images/2019/04/24/ba9ea63e3acff1d60a8e0a04e903c988/brand-story-ourlivery.jpg?imageOpt=1&fit=bounds&width=1113&crop=1648,1200,x1138,y0");
-
-  /* Full height */
-  height: 50%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#img1n {
-  background-image: url("https://media-s3-us-east-1.ceros.com/united/images/2019/04/24/ba9ea63e3acff1d60a8e0a04e903c988/brand-story-ourlivery.jpg?imageOpt=1&fit=bounds&width=1113&crop=1648,1200,x1138,y0");
-
-/* Full height */
-height: 100%; 
-
-/* Center and scale the image nicely */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-.container img {
-  width: 100%;
-}
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  text-decoration-color:white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
- 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(122, 122, 122);
-}
- 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: black;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
- 
-.dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
- 
-.dropdown-content a:hover {
-  background-color: rgb(0, 49, 60);
-}
- 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.ghighlight {
-    background-color: #E8E8E8;
-}
- 
- 
-        </style>
-    </head>
-    <body>
-<div id="navbar">
-<ul>
-  <li><a href="#top">Home</a></li>
-  <li><a href="#info">Information</a></li>
-  <li><a href="#weeklynews">Weekly Newsletter</a></li>
-  <li><a href="#contact">Contact Us</a></li>
-  <li><div class="dropdown">
-    <button class="dropbtn">External Links (Dropdown)
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#info">Information</a></li>
+            <li><a href="#weeklynews">Weekly Newsletter</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">External Links (Dropdown)
       <i class="fa fa-caret-down"></i>
     </button>
-    <div class="dropdown-content">
-      <a target="_blank" href="https://www.instagram.com/iv.aviation.14/">Social Media</a>
+                    <div class="dropdown-content">
+                        <a target="_blank" href="https://www.instagram.com/iv.aviation.14/">Social Media</a>
+                    </div>
+                </div>
+                <li style="float:right"><img class="active" src="https://i.imgur.com/zgLNvJy.png" alt="(UAAG Logo should be here, but it's not)"></li>
+                <li></li>
+        </ul>
     </div>
-  </div>
-  <li style="float:right"><img class = "active" src="https://i.imgur.com/zgLNvJy.png" alt="(UAAG Logo should be here, but it's not)"></li>
-  <li></li>
-  </ul>
-</div>
-<div id="img1n"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p id="txt1">UAAG Home</p></div>
+    <div id="img1n"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p id="txt1">UAAG Home</p>
+    </div>
     <br>
     <br>
     <br>
@@ -232,34 +257,34 @@ background-size: cover;
     <br>
     <br>
     <div id="info">
-      <br><br><br><br>
-      <h2>Info</h2>
-      <br><br><br><br>
-      <p>The UAAG Alliance (United Airlines Association Global) is an alliance originating from AM4 (airline4.net). The alliance is a few months old. There are three admins:<br>IV International Airways (The founder and CEO (Chief Executive Officer))<br>Orbit vAirlines (The COO (Chief Operations Officer))<br>Shorts Stream (The CPAO (Chief People and Admin Officer))<br>DiF Airlines (The PRO (Public Relations Officer))<br><br>The alliance has many members and is quickly growing in size and value.</p>
+        <br><br><br><br>
+        <h2>Info</h2>
+        <br><br><br><br>
+        <p>The UAAG Alliance (United Airlines Association Global) is an alliance originating from AM4 (airline4.net). The alliance is a few months old. There are multiple admins:<br>IV International Airways (The founder and CEO (Chief Executive Officer))<br>Orbit
+            vAirlines (The COO (Chief Operations Officer))<br>Shorts Stream (The CPAO (Chief People and Admin Officer))<br>Sands Beach Airways (Organizer)<br>High Flyin Skyy (Public Relations Officer)<br><br>The alliance has many members and is quickly
+            growing in size and value.</p>
     </div>
     <div id="weeklynews"><br><br><br><br>
-      <h2>Weekly Newsletters</h2><br><br>
-      <widgetbot
-      server="694638453047951381"
-      channel="716323343556542485"
-      width="800"
-      height="600"
-    ></widgetbot>
-    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+        <h2>Weekly Newsletters</h2><br><br>
+        <widgetbot server="694638453047951381" channel="716323343556542485" width="800" height="600"></widgetbot>
+        <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
     </div>
     <br>
     <br><br><br><br>
     <div id="contact">
-      <h2>Contact Us</h2><br><br>
-      <p style="font-size:24px; font:Verdana;">To contact us, you can join our discord and ask the question, or you can contact an admin in the AM4 app/website.</p>
+        <h2>Contact Us</h2><br><br>
+        <p style="font-size:24px; font:Verdana;">To contact us, you can join our discord and ask the question, or you can contact an admin in the AM4 app/website.</p>
     </div>
     <div id="about">
-    <br>
-    <br>
-    <h2>About</h2>
-    <br>
-    <br>
-    <p>This webpage was started on Tuesday, May 26, 2020 A.D./C.E. We are not responsible for damage or harm to yourself, another person, an animal, or an object, from this website. We are not liable for anything involving this website, and we are especially not liable for anything <em>not</em> involving this website. According to the MIT License,<br>commercial use, modification, distribution, and private use are allowed under the condition that it contains the MIT license and a copyright notice. The MIT License also prevents us from being liable and no warranties may be given.<br>Powered by <a href="https://circlertech.com">CirclR</a>.</p>
+        <br>
+        <br>
+        <h2>About</h2>
+        <br>
+        <br>
+        <p>This webpage was started on Tuesday, May 26, 2020 A.D./C.E. We are not responsible for damage or harm to yourself, another person, an animal, or an object, from this website. We are not liable for anything involving this website, and we are especially
+            not liable for anything <em>not</em> involving this website. According to the MIT License,<br>commercial use, modification, distribution, and private use are allowed under the condition that it contains the MIT license and a copyright notice.
+            The MIT License also prevents us from being liable and no warranties may be given.<br>Powered by <a href="https://circlertech.com">CirclR</a>.</p>
     </div>
-    </body>
+</body>
+
 </html>
